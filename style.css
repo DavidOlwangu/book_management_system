@@ -31,14 +31,21 @@ h2{
 }
 /*Style for both buttons*/
 button{
-    background-color: rgb(7, 18, 173);
+    background-color: #2563eb;
+    color: white;
     border:none;
     border-radius: 14px;
     padding: 10px 24px;
     font-weight: 400;
     font-family: sans-serif;
     cursor: pointer;
+    margin-bottom: 16px;
     transition: all 0.2s ease;
+
+}
+button:hover{
+    background-color: #152e70;
+    transform: translateY(-1px);
 }
 #addBkbtn {
     background-color: #2563eb;

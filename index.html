@@ -2,57 +2,73 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
         <title>Book Management System</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        
         <fieldset>
 
             <div>
                 <h2>Books Management System</h2>
             </div>
 
-            <div>
-                <fieldset>
-                    <legend>Library Patron/User/s Information</legend>
+            <!--User details-->
+            <form>
+                <div>
+                    <fieldset>
+                        <legend>Library Patron/User/s Information</legend>
 
-                    <div>
-                        <input type="text" id="username" placeholder="Full Name">
-                        <input type="tel" id="phonenumber" placeholder="Phone number"><br><br>
-                    </div>
+                        <div>
+                            <input type="text" id="username" placeholder="Full Name">
+                            <input type="tel" id="phonenumber" placeholder="Phone number"><br><br>
+                        </div>
 
-                    <div>
-                        <input type="mail" id="email" Placeholder="johndoe@gmail.com">
-                        <input type="number" id="idnumber" placeholder="ID number"><br><br>
-                    </div>
-                </fieldset>
-            </div>
+                        <div>
+                            <input type="email" id="email" Placeholder="johndoe@gmail.com">
+                            <input type="number" id="idnumber" placeholder="ID number"><br><br>
+                        </div>
+                    </fieldset>
+                </div>
 
-            <div>
-                <fieldset>
-                    <legend>Book Details</legend><br><br>
-                    
-                    <label for="bookName">Book Name:</label><br>
-                    <input type="text" id="bookname"><br><br>
+                <!--Collects book details-->
+                <div>
+                    <fieldset>
+                        
+                        <legend>Book Details</legend><br><br>
+                        
+                        <label for="bookname">Book Name:</label><br>
+                        <input type="text" id="bookName"><br><br>
 
-                    <label for="authorName">Author Name:</label><br>
-                    <textarea id="textarea1" ></textarea><br><br>
+                        <label for="authorname">Author Name:</label><br>
+                        <textarea id="authorName" rows="3"></textarea><br><br>
 
-                    <label>Book Description:</label><br>
-                    <textarea id="textarea2"></textarea><br><br>
+                        <label for="bookdescription">Book Description:</label><br>
+                        <textarea id="bookDescription" rows="3"></textarea><br><br>
 
-                    <label for="bookPages">No. of pages:</label><br>
-                    <input type="number" id="bookpages"><br><br>
-                    
-                </fieldset>
-            </div><br>
+                        <label for="bookpages">No. of pages:</label><br>
+                        <input type="number" id="pagesNumber"><br><br>
+                        
+                    </fieldset>
+                </div><br>
 
-            <div class="buttons_container">
-                <button type="button" id="addBkbtn">Add Book</button>
-                <button type="reset" id="addRstbtn">Reset</button><br><br>
-            </div>
+                <!--Add and Reset button-->
+                <div class="buttons_container">
+                    <button type="button" id="addBkbtn" onclick="addBooks()">Add Book</button>
+                    <button type="reset" id="addRstbtn">Reset</button><br><br>
+                </div>
+            </form>
+            <!--New books will be dispayed inside fieldset-->
+            <fieldset>
+                <h2>Books</h2>
+                <div id="books">
+                    <!--Books will be displayed here-->
+                </div>
+            </fieldset>
 
         </fieldset>
+        
+        <script src="script.js"></script>
     </body>
 </html>
