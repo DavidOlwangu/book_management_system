@@ -1,0 +1,58 @@
+/* ================================
+   Reset default browser spacing
+   and make box sizing predictable
+================================ */
+
+.body{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #1e293b); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    color: #0f172a;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+}
+
+/*Buttons container*/
+.buttons_container {
+    display: flex;
+    justify-content: center; /*Aligns horizontally*/
+    align-items: center; /*Aligns vertically*/
+    gap: 28px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+/*Style for both buttons*/
+button{
+    background-color: rgb(7, 18, 173);
+    border:none;
+    border-radius: 14px;
+    padding: 10px 24px;
+    font-weight: 400;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+#addBkbtn {
+    background-color: #2563eb;
+    color: white;
+}
+#addBkbtn:hover{
+    background-color: #152e70;
+    transform: translateY(-1px);
+}
+#addRstbtn{
+    background-color: #2563eb;
+    color: white;
+}
+#addRstbtn:hover{
+    background-color: #152e70;
+    transform: translateY(-1px);
+}
