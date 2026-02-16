@@ -81,7 +81,7 @@ Open index.html in your browser.
 
 👤 Author
 David Olwangu
-
+Software Development Student
 ---
 
 📜 License
