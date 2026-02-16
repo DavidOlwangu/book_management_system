@@ -31,7 +31,7 @@ This project is suitable for beginners learning DOM manipulation and basic JavaS
 
 ---
 
-## ▶️ How to Run the Project
+▶️ How to Run the Project
 
 Create a new folder on your computer.
 
@@ -47,7 +47,7 @@ Open index.html in your browser.
 
 ---
 
-## 🎯 Learning Objectives
+🎯 Learning Objectives
 
 * Understand how to collect data from HTML forms using JavaScript
 
@@ -61,7 +61,7 @@ Open index.html in your browser.
 
 * Practice basic UI styling with CSS
 
-##🔧 Possible Improvements
+🔧 Possible Improvements
 
 * Add delete functionality for books
 
@@ -79,12 +79,12 @@ Open index.html in your browser.
 
 ---
 
-##👤 Author
+👤 Author
 David Olwangu
 
 ---
 
-##📜 License
+📜 License
 
 This project is licensed under the Apache License 2.0.
 
